@@ -9,4 +9,3 @@ around three initial coding steps.
 1. Understand the problem
 2. Plan the problem (design algorithms)
 3. Pseudocode
-
