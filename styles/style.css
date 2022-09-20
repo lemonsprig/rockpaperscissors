@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    background-color: darkslategrey;
+    padding: 20px 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.gameArea {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex: 1;
+}
+.gameArea img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    font-size: 52px;
+    color: white;
+    margin: 50px;
+}
+
+.scores div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
