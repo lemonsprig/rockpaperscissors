@@ -1,0 +1,57 @@
+
+1. Problem
+simulate the rock paper scissors hand game by playing three rounds against the computer. 
+each round the computer randomly selects one of the options. The player enters their 
+choice and the computer and player options are compared resultiong in the player, losing, 
+winning or drawing the round based on the following rules.
+
+ a) Rock beat scissors
+ b) Scissors beat paper
+ c) Paper beats rock
+ d) both the same equals a draw
+
+ At the end of three rounds the overall winner is decided based on who won the most rounds
+
+ 2. Planning
+ 
+    For each round 
+        a) randomly choose the computers choice and store it in a variable
+        b) ask the player their choice and store it in a variable
+        c) compare the computer and players choice and determine the outcome
+        d) output the results
+    
+    After three rounds
+        a) output the overall winner
+
+3. Pseudocode
+
+    create variables to hold computerChoice, playerChoice, currentRound, playerRoundsWon
+    
+    function getComputerChoice
+    
+    function getPlayerChoice
+    
+    function playRound(computerChoice, playerChoice)
+        output round results
+        if player won increase playerRoundsWon by one
+
+
+    loop through three rounds
+        function getComputerChoice()
+        function getPlayerChoice()
+        function playRound(computerChoice,  playerChoice)
+
+    Output the winner
+
+
+        
+        
+
+
+
+
+
+
+  
+
+
