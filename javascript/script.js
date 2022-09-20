@@ -18,14 +18,6 @@ function getComputerChoice(){
     }
 }
 
-function getPlayerChoice() {
-    let choice = ""
-    while (choice != "rock" && choice != "paper" && choice != "scissors") {
-    choice =  prompt("Please make your choice").toLowerCase();
-    }
-    return choice;
-}
-
 function playRound(computerChoice, playerChoice) {
     let outcome = ""
     if (computerChoice === playerChoice) {
@@ -45,11 +37,10 @@ function playRound(computerChoice, playerChoice) {
 }
 
 function game() {
-    for (i = 0; i <5; i++) {
-        computerChoice = getComputerChoice();
-        playerChoice = getPlayerChoice();
-        console.log(playRound(computerChoice, playerChoice));
-    }
+    computerChoice = getComputerChoice();
+    playerChoice = this.id //getPlayerChoice();
+    console.log(playRound(computerChoice, playerChoice));
+    
     if (playerRoundsWon > computerRoundsWon) {
         return "Player Wins"
     }
@@ -58,4 +49,13 @@ function game() {
     }
 }
 
-console.log(game());
+const options = document.querySelectorAll("img");
+
+options.forEach(option => {option.addEventListener("click", game)
+    console.log("box clicked", option.id);
+    option.setAttribute("style", "border: 1px solid red");
+
+});
+
+
+console.log(options);
