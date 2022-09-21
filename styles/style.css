@@ -17,16 +17,38 @@ button {
 }
 
 .header-container {
-    background-color: darkslategrey;
-    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;;
+    flex-direction: column;
+    background-color: #585858;
+    background-color: #252526;    
+    height: 150px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    font-size: 30px;
+    color: yellow;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24;
+    color: yellow;;
+    background-color: #333333;
+    height: 40px;
 }
 
 .content-container {
     display: flex;
     flex-direction: column;
     flex: 1;
-    border: 1px solid white;
-    background-color: black;
+    background-color: #1E1E1E;
 }
 
 .gameArea {
