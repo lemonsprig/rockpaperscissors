@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> rps-ui
 let computerChoice = ""
 let playerChoice = ""
 let playerRoundsWon = 0

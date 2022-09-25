@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
-=======
-    text-align: center;
->>>>>>> rps-ui
 }
 
 body {
@@ -18,21 +14,6 @@ button {
     width: 100px;
     height: 50px;
     margin: 0 auto;
-}
-
-<<<<<<< HEAD
-.header-container {
-    background-color: darkslategrey;
-    padding: 20px 0;
-=======
-.instructions {
-    margin: 20px 0;
-}
-
-.instructions p {
-    font-size: 20px;
-    padding: 5px;
-    color: white;
 }
 
 .header-container {
@@ -51,7 +32,6 @@ button {
     padding: 20px;
     font-size: 30px;
     color: yellow;
-    background: repeating-linear-gradient( 45deg, transparent, transparent 4px, rgba(51, 51, 51, 0.3) 4px, rgba(51, 51, 51, 0.3) 8px );
 }
 
 .navigation {
@@ -62,19 +42,13 @@ button {
     color: yellow;;
     background-color: #333333;
     height: 40px;
->>>>>>> rps-ui
 }
 
 .content-container {
     display: flex;
     flex-direction: column;
     flex: 1;
-<<<<<<< HEAD
-    border: 1px solid white;
-    background-color: black;
-=======
     background-color: #1E1E1E;
->>>>>>> rps-ui
 }
 
 .gameArea {
