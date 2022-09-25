@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
-=======
     text-align: center;
->>>>>>> rps-ui
 }
 
 body {
@@ -63,12 +60,7 @@ button {
     display: flex;
     flex-direction: column;
     flex: 1;
-<<<<<<< HEAD
-    border: 1px solid white;
-    background-color: black;
-=======
     background-color: #1E1E1E;
->>>>>>> rps-ui
 }
 
 .gameArea {
